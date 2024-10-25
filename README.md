@@ -12,4 +12,4 @@
 ---
 ![image2](src/main/resources/img/img2.png)
 ---
-![image3](src/main/resources/img/img.png)
+![image3](src/main/resources/img/img3.png)
