@@ -1,5 +1,6 @@
 package com.jeff.random_phrases.controller;
 
+import com.jeff.random_phrases.dto.PhraseDTO;
 import com.jeff.random_phrases.model.Phrase;
 import com.jeff.random_phrases.service.PhraseService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +13,7 @@ public class PhraseController {
     private PhraseService service;
 
     @GetMapping("/phrase")
-    public Phrase getPhrase(){
+    public PhraseDTO getPhrase(){
         return service.getRandomPhrase();
     }
 }
