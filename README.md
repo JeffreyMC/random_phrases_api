@@ -8,6 +8,8 @@
 
 
 # Screenshots
-![image1](img.png)
-![image1](img2.png)
-![image3](img.png)
+![image1](src/main/resources/img/img.png)
+---
+![image2](src/main/resources/img/img2.png)
+---
+![image3](src/main/resources/img/img.png)
